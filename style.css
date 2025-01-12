@@ -1,0 +1,76 @@
+
+*{
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    overflow-x: hidden;
+}
+.container
+{
+    max-width: 80%;
+    
+    padding: 34px;
+    margin: auto;
+    
+}
+.container h3 ,p{
+    text-align: center;
+    
+        cursor: pointer;
+    
+
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    margin: 10px;
+    font-family: "Sriracha", cursive;
+    cursor: pointer;
+}
+p{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 6px;
+    font-family: "Sriracha", cursive;
+}
+input,textarea{
+    display: block;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+
+
+}
+form{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color:white;
+    background-color:purple;
+    padding: 2px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 10;
+
+}
+.submitmsg{
+    color: green;
+    font-size: 30px;
+}
